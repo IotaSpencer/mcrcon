@@ -1,7 +1,7 @@
-require_relative 'lib/mc_query/version'
+require_relative 'lib/mcquery/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "mc_query"
+  spec.name          = "mcquery"
   spec.version       = MCQuery::VERSION
   spec.authors       = ["Ken Spencer"]
   spec.email         = ["me@iotaspencer.me"]
@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/IotaSpencer/mc_query"
+  spec.metadata["source_code_uri"] = "https://github.com/IotaSpencer/mcquery"
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
   spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do
